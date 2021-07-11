@@ -9,3 +9,5 @@ class Bacon_count(MRJob):
        yield key, sum(values)
 if __name__ == "__main__":
    Bacon_count.run()
+
+>$ python bacon_counter.py input.txt
